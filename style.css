@@ -68,6 +68,26 @@ select {
     box-shadow: 0 10px 25px black;
 }
 
+button {
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    padding: 0px 15px;
+    line-height: 14px;
+    font-size: 14px;
+    border: 1px solid #e20074;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px black;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #e20074;
+    color: #333;
+}
+
 .menu {
     width: 10%;
     float: left;

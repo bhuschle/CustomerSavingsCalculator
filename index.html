@@ -17,7 +17,7 @@
         <input id="email" type="email" class="input-box" placeholder="Enter Customers email...">
     </div> -->
     <div class="main">
-        <select id="tmo-plan" class="select-box" onchange="location.reload()" required>
+        <select id="tmo-plan" name="tmo-plan" class="select-box">
             <option value="" selected>-- T-Mobile Plan --</option>
             <option value="ffe">55 essentials</option>
             <option value="ff">55</option>
@@ -30,7 +30,7 @@
         </select>
     </div>
     <div class="main" id="line-select">
-        <select id="lines" class="select-box" onchange="location.reload()" required>
+        <select id="lines" class="select-box">
             <option value="" selected>-- Number of Lines --</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -46,44 +46,41 @@
             <option value="12">12</option>
         </select>
     </div>
-    <div class="main" id="comp">
-        <select id="service" class="select-box" onchange="location.reload()" required>
-            <option value="" selected>-- Current Service Provider --</option>
-            <option value="ATT">AT&T</option>
-            <option value="VZW">Verizon</option>
+
+    <div class="main">
+        <select id="comp-plans" class="select-box">
+            <option value="" selected>-- Competitor Plans --</option>
+            <optgroup label="AT&T">
+                <option value="us">Unlimited Starter</option>
+                <option value="uex">Unlimited Extra</option>
+                <option value="uel">Unlimited Elite</option>
+            </optgroup>
+            <optgroup label="Verizon">
+                <option value="su">Start Unlimited</option>
+                <option value="pmu">Play More Unlimited</option>
+                <option value="dmu">Do More Unlimited</option>
+                <option value="gmu">Get More Unlimited</option>
+                <option value="jk">Just Kids</option>
+            </optgroup>
         </select>
     </div>
-    <div class="main" id="att">
-        <select id="att-plan" class="select-box" onchange="location.reload()" required>
-            <option value="" selected disabled>-- Plan --</option>
-            <option value="us">Unlimited Starter</option>
-            <option value="uex">Unlimited Extra</option>
-            <option value="uel">Unlimited Elite</option>
-        </select>
-    </div>
-    <div class="main" id="verizon">
-        <select id="vz-plan" class="select-box" onchange="location.reload()" required>
-            <option value="" selected disabled>-- Plan --</option>
-            <option value="su">Start Unlimited</option>
-            <option value="pmu">Play More Unlimited</option>
-            <option value="dmu">Do More Unlimited</option>
-            <option value="gmu">Get More Unlimited</option>
-            <option value="jk">Just Kids</option>
-        </select>
-    </div>
+
     <div class="main check-box">
         <form>
-            <input type="checkbox" name="autopay" id="autopay-select" value="autopay" onchange="location.reload()" required>
+            <input type="checkbox" name="autopay" id="autopay-select" value="autopay">
             <label for="autopay">Previous Autopay</label>
         </form>
     </div>
     <div class="main check-box">
         <form>
-            <input type="checkbox" name="tmo-autopay" id="tmo-autopay-select" value="tmo-autopay" onchange="location.reload()" required>
+            <input type="checkbox" name="tmo-autopay" id="tmo-autopay-select" value="tmo-autopay">
             <label for="autopay">T-Mobile Autopay</label>
         </form>
     </div>
     </form>
+    <div class="main">
+        <button id="submit" type="button">Submit</button>
+    </div>
     <div id="plan-box" class="main">
         <div class="card-body">
             <div id="plan-name"></div>
