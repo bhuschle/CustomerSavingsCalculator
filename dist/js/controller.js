@@ -1,34 +1,8 @@
-// get plan selected value
-let plan = document.getElementById("tmo-plan").value;
-
-// get line selected value
-let line = document.getElementById("lines").value;
-let ls = document.getElementById("line-select");
-
-// get competitors plan select
-let comp = document.getElementById("comp-plans").value;
-
-// get TMO plan box elements
-let planb = document.getElementById("plan-box");
-
-// Autopay checkbox
-let ap = document.getElementById("autopay-select");
-let tap = document.getElementById("tmo-autopay-select");
-
-// get plan information divs
-let pn = document.getElementById("plan-name");
-let pp = document.getElementById("plan-price");
-let opp = document.getElementById("old-plan-price");
-let ps = document.getElementById("plan-savings");
-let pb = document.getElementById("plan-benefits");
+import { vzw } from "VZW.js";
+import { tmo } from "TMO.js";
+import { att } from "ATT.js";
 
 function calculateCard() {
-  plan = document.getElementById("tmo-plan").value;
-  ap = document.getElementById("autopay-select");
-  tap = document.getElementById("tmo-autopay-select");
-  line = document.getElementById("lines").value;
-  comp = document.getElementById("comp-plans").value;
-
   // Previous Carrier Plan Cost
   let previous_price = 0;
   let selected = "";
