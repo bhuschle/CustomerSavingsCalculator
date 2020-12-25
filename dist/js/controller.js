@@ -2,6 +2,15 @@ import { vzw } from "VZW.js";
 import { tmo } from "TMO.js";
 import { att } from "ATT.js";
 
+const viewChanger = function () {
+  // Show View announcing welcome to TMO Mobile Expert
+  // Show View for how many lines the customer had
+  // Show View for what Service the customer had before { Verizon, ATT }
+  // Show view for what plan the customer had based off the service they chose
+  // Show view for the plans that T-Mobile offers { planName, planPrice, oldPlanPrice, priceDifference }
+  // Show option for starting over with new customer
+};
+
 function calculateCard() {
   // Previous Carrier Plan Cost
   let previous_price = 0;
