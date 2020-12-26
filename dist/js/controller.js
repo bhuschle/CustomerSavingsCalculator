@@ -1,6 +1,6 @@
-import { vzw } from "VZW.js";
-import { tmo } from "TMO.js";
-import { att } from "ATT.js";
+import { VZW } from "VZW.js";
+import { TMO } from "TMO.js";
+import { ATT } from "ATT.js";
 
 const viewChanger = function () {
   // Show View announcing welcome to TMO Mobile Expert

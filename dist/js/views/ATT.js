@@ -33,4 +33,8 @@ class ATT {
   fourGB = [50, 90, 120, 160, 200, 240, 280, 320, 360, 400, 440, 480];
 }
 
-export default new ATT();
+class attView {
+  
+}
+
+export default new attView();
