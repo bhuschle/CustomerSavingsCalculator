@@ -1,106 +1,106 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin-top: 50px;
-    background: #333;
-    color: #fff;
+  margin-top: 50px;
+  background: #333;
+  color: #fff;
 }
 
 #topbar {
-    background: #e20074;
-    font-family: Futura;
-    padding-left: 10%;
-    box-shadow: 0 10px 15px black;
+  background: #e20074;
+  font-family: Futura;
+  padding-left: 10%;
+  box-shadow: 0 10px 15px black;
 }
 
 .card-body {
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 0px 12px;
-    padding: 10%;
-    background: #e20074;
-    padding: 5px;
-    height: 100%;
-    width: 100%;
-    box-shadow: 0 10px 15px black;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 0px 12px;
+  padding: 10%;
+  background: #e20074;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 10px 15px black;
 }
 
 .input-box {
-    margin-top: 10px;
-    background: #333;
-    color: #fff;
-    height: 30px;
-    width: 100%;
-    padding: 0px 15px;
-    line-height: 14px;
-    font-size: 14px;
-    border: 1px solid #e20074;
-    border-left: transparent;
-    border-top: transparent;
-    border-right: transparent;
-    border-radius: 6px;
-    box-shadow: 0 10px 15px black;
+  margin-top: 10px;
+  background: #333;
+  color: #fff;
+  height: 30px;
+  width: 100%;
+  padding: 0px 15px;
+  line-height: 14px;
+  font-size: 14px;
+  border: 1px solid #e20074;
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  border-radius: 6px;
+  box-shadow: 0 10px 15px black;
 }
 
 .check-box {
-    margin-top: 10px;
-    background: #333;
-    color: #fff;
-    height: 30px;
-    width: 100%;
-    padding: 0px 15px;
-    line-height: 14px;
-    font-size: 14px;
-    border: 1px solid #e20074;
-    border-radius: 6px;
-    box-shadow: 0 10px 15px black;
+  margin-top: 10px;
+  background: #333;
+  color: #fff;
+  height: 30px;
+  width: 100%;
+  padding: 0px 15px;
+  line-height: 14px;
+  font-size: 14px;
+  border: 1px solid #e20074;
+  border-radius: 6px;
+  box-shadow: 0 10px 15px black;
 }
 
 select {
-    margin-top: 10px;
-    height: 30px;
-    width: 100%;
-    background: #333;
-    color: #fff;
-    padding: 0px 15px;
-    line-height: 14px;
-    font-size: 14px;
-    border: 1px solid #e20074;
-    border-radius: 6px;
-    box-shadow: 0 10px 25px black;
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 0px 15px;
+  line-height: 14px;
+  font-size: 14px;
+  border: 1px solid #e20074;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px black;
 }
 
 button {
-    margin-top: 10px;
-    height: 30px;
-    width: 100%;
-    background: #333;
-    color: #fff;
-    padding: 0px 15px;
-    line-height: 14px;
-    font-size: 14px;
-    border: 1px solid #e20074;
-    border-radius: 6px;
-    box-shadow: 0 10px 25px black;
-    transition-duration: 0.4s;
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 0px 15px;
+  line-height: 14px;
+  font-size: 14px;
+  border: 1px solid #e20074;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px black;
+  transition-duration: 0.4s;
 }
 
 button:hover {
-    background-color: #e20074;
-    color: #333;
+  background-color: #e20074;
+  color: #333;
 }
 
 .menu {
-    width: 10%;
-    float: left;
+  width: 10%;
+  float: left;
 }
 
 .main {
-    width: 45%;
-    float: left;
-    margin-left: 10%;
+  width: 45%;
+  float: left;
+  margin-left: 10%;
 }
